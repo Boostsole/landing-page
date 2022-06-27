@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This website is awesome</title>
+<link rel="stylesheet" href="./This website is awesome_files/style.css"></head>
+
+<body>
+    <!---top of the website-->
+     <header>
+       <div class="header-logo">
+            <img src="./This website is awesome_files/AP.png" style="
+            width: 50x;
+            height: 50px;
+            ">
+       </div>
+       <nav class="navigation">
+            <a href="http://127.0.0.1:5500/index.html">About</a>
+            <a href="http://127.0.0.1:5500/index.html">Our Work</a>
+            <a href="http://127.0.0.1:5500/index.html">Free Quote</a>
+       </nav>
+</header>
+<!--html hero-->
+       <div class="main-headline">
+          <div class="headline">
+              <div class="heromain">This Website is Awesome</div>
+              <div class="herosecondary"> 
+                This website has some subtext that goes here under the main title.
+                It's a smaller font and the color is lower contrast.
+          </div>
+          <button class="button">
+                Sign up
+          </button>
+    </div>
+    <div class="image"></div>
+    <img class="heroimg" src="./This website is awesome_files/pressure.jpeg" style="
+    width: 400px;
+    ">
+     </div>
+
+    <div class="content">
+           <h2>SOMETHING GOES HERE</h2>
+    </div>
+    <div class="content-info">
+                <img src="./This website is awesome_files/pexels-chait-goli-1797195.jpeg" style="
+                width: 200px;
+                height: 200px">
+           </div>
+       
+ 
+    
+
+  
+     
+    
+
+
+
+    
+      
+   
+
+
+
+
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
